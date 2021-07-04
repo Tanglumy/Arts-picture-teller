@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_open"
+    tools:context="com.android.arts.OpenActivity">
+    <Button
+        android:id="@+id/in"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:background="@android:color/transparent"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="320dp"
+        android:text="跳过"
+        android:textSize="16dp"
+        android:textColor="#ffffff"/>
+</RelativeLayout>
